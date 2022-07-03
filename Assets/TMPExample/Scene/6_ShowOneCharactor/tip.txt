@@ -1,0 +1,1 @@
+ShowOneCharactor 节点主要要添加 meshrenderer 和 meshfilter组件
