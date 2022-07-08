@@ -1,0 +1,844 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TMPro.FastAction" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAQAAAAAAAAAAAAAAABAAAACQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\FastAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.FastAction&lt;A&gt;" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAQAAAAAAAAAAAAAAABAAAACQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\FastAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.FastAction&lt;A, B&gt;" Collapsed="true">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAQAAAAAAAAAAAAAAABAAAACQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\FastAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.FastAction&lt;A, B, C&gt;" Collapsed="true">
+    <Position X="22.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAQAAAAAAAAAAAAAAABAAAACQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\FastAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.MaterialReferenceManager" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEAAQQAAKAAAAAAgBAAAACBiRAAAAAAQAQsQQSAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\MaterialReferenceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TextContainer" Collapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABEBACHBBgIgEQKRIECIAAABwQAACAMIARAgAAACUA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TextContainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TextMeshPro" Collapsed="true">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoOFkEDBQKaYjMFJYDNtSQSwQlYlSYmY7qFUScogmFA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TextMeshPro.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TMPro.TextMeshProUGUI" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIKBkEABYCaQjMFLZDF9CAS4RkYlwQWo76VWSOoiWNA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TextMeshProUGUI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TMPro.TMP_Asset" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAABAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAgAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Asset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_Character" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_ColorGradient" Collapsed="true">
+    <Position X="22.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAEAAAAAAAABAAEAAAAAAAAAAAAIgEAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_ColorGradient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_Compatibility" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Compatibility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TweenRunner&lt;T&gt;" Collapsed="true">
+    <Position X="12" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAgAEAAAAAgACAACAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_CoroutineTween.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_DefaultControls" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQgEIACAAEAAAQCAABAAAAQAAAICAAAEkAASQ=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_DefaultControls.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_Dropdown" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QMDECWEEViIAUhBAEQEgCADggEQEIaAICBAhCIIAAEI=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Dropdown.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TMPro.TMP_EditorResourceManager" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAgIAAAQAAAAQhSQgAQAwQBAgAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_EditorResourceManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_FontAsset" Collapsed="true">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FQJApOAEznj4kweoX8ExbJFIGCiOejIJDC4Xk4IDEOU=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontAsset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.FaceInfo_Legacy" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACAAhABAQIIgAAYAAAAAgAAAAIKAIAEAQQY=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontAssetCommon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_Glyph" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontAssetCommon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.KerningPair" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAJAAABAAAQAAAAAIACAAAQgAAAAAAQAIAAgAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontAssetCommon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.KerningTable" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAIAgAAAAAAAAAAAAAAACAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontAssetCommon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_FontUtilities" Collapsed="true">
+    <Position X="20.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAACAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontAssetCommon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_FontAssetUtilities" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAEAAAAAAAAIAAAwAAAAAAAABAAACAAAAAAAIAAgA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontAssetUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_GlyphPairAdjustmentRecord" Collapsed="true">
+    <Position X="22.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAEAAEAAAAAAEAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontFeaturesCommon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_FontFeatureTable" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAIAAQAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontFeatureTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_InputField" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>I7m19Vbm/269+xt3Qenh9diGurtD9f06ymLtlr/y7d0=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_InputField.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TMPro.SetPropertyUtility" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAIAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_InputField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_InputValidator" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_InputValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_ListPool&lt;T&gt;" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_ListPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_MaterialManager" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIABAABIQCQAAAAMAgEAAAEUSBAAAEAAEAAEAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_MaterialManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_ObjectPool&lt;T&gt;" Collapsed="true">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAYAAEAAAAJAAAAAAAAAAAAAAAAAAAAAABABAAg=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_ObjectPool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_PackageResourceImporter" Collapsed="true">
+    <Position X="20.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAIAIAAAgACEIAAAAAAAAAAAQACAAQAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_PackageResourceImporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_PackageResourceImporterWindow" Collapsed="true">
+    <Position X="22.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABBAAAAAAAIQAAAAAAAACAAAgAAAAAAAACAAAAACAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_PackageResourceImporter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_ResourceManager" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAgAEAAAAAAgAgAAIAAAAAAACABA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_ResourcesManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.CodePoint" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEAgQAAEAAAAIAADDAAAAAAAAAEAAABQAAQACIAAAiI=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_RichTextTagsCommon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_ScrollbarEventHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_ScrollbarEventHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="TMPro.TMP_SelectionCaret" Collapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_SelectionCaret.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_Settings" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIWCAbgDEQgEAIMxSwIALEAAyAlGRAQgBk5UzoADQEA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.ShaderUtilities" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SiIEDAAcgC7IEPgAAgBQGgBBgFIDCgUEwgA4mJIBRBw=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_ShaderUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_Sprite" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAABAAAAAAAAAAAAAAAABAEAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_SpriteAnimator" Collapsed="true">
+    <Position X="17.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAACAAAAAAAAAAAAIAAggAAACCEA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_SpriteAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_SpriteAsset" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQRCAHAAAFIAAAAiEgAAA4AABDACAAQAAIgAAEQAgkE=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_SpriteAsset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_SpriteCharacter" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECgAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_SpriteCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_SpriteGlyph" Collapsed="true">
+    <Position X="19" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_SpriteGlyph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_Style" Collapsed="true">
+    <Position X="20.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kihAAAQAAAAAAAAEAEAAACAAAAgEAhAAAQAACAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Style.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_StyleSheet" Collapsed="true">
+    <Position X="22.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAABIAAQAAAAAAAAAAEAAAAAAACAIAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_StyleSheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_SubMesh" Collapsed="true">
+    <Position X="10.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEBBEABQSCRgAAAAgAhAEEEAHQBAIiIBAAUARBiiQM=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_SubMesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_SubMeshUI" Collapsed="true">
+    <Position X="12" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABhEABQSGRkAABAoAzEEEEAFQBAIiIJCAUABBiCQs=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_SubMeshUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_Text" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>7ev3l/bdX9/8/ze7/7//Xv/312xvT//Kzm//ffvu59c=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Text.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_TextElement" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABggAAQAACAAAAAAAAACAAAABkAIBAAAAQAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_TextElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_TextElement_Legacy" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAACAAAAAAAAAAFwAAAAAgA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_TextElement_Legacy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_TextInfo" Collapsed="true">
+    <Position X="13.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAABAAAAAABAAIIUDAAQgBABEAEBgAEABAAAhFAEAQ=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_TextInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_TextParsingUtilities" Collapsed="true">
+    <Position X="15.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAgAAgAQAAABAAIgAABAAAAEAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_TextParsingUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_TextUtilities" Collapsed="true">
+    <Position X="17.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIwAEAAAgAQQABAVAgBQAAAAABIAQIAATCABAQAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_TextUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_UpdateManager" Collapsed="true">
+    <Position X="19" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gMABABAQAAAQAAAqEwAAAAAAAYBYgAAIIgEAAEAEIyE=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_UpdateManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_UpdateRegistry" Collapsed="true">
+    <Position X="20.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIQAAAACEAJAIAgCgAAAAIAAABQAAAAAgAAAAAEAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_UpdateRegistery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMPro_EventManager" Collapsed="true">
+    <Position X="22.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAgAAGEQgKAAAAAAAAkAABgBICAAAAgAEEAgAQgARA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMPro_EventManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.Compute_DT_EventArgs" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAIAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMPro_EventManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMPro_ExtensionMethods" Collapsed="true">
+    <Position X="10.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAABAAAEAAAABAAAABAAAAwAAAgBAAAIAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMPro_ExtensionMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.TMP_Math" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAIAAACAAgAAAAAAAAAAAAAAAQAACAAAAAQAoAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMPro_ExtensionMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomTextUtil" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAABAABAgAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\MyTest\CustomTextUtil\CustomTextUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TMPro.SpriteAssetUtilities.TexturePacker_JsonArray" Collapsed="true">
+    <Position X="20.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_SpriteAssetImportFormats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TMPro.TMP_MaterialReference" Collapsed="true">
+    <Position X="17.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\MaterialReferenceManager.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.MaterialReference" Collapsed="true">
+    <Position X="12" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAAEABAAAAAgAAAIAABTAAI=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\MaterialReferenceManager.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.TMP_Vertex" Collapsed="true">
+    <Position X="13.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAABIAAAAAAAAACAAAAAAAAAAgA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_CharacterInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.TMP_Offset" Collapsed="true">
+    <Position X="20.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAMAAAAAAABAAoAABAAgAAAQKAIAAAEAAAAAAgiI=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_CharacterInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.HighlightState" Collapsed="true">
+    <Position X="22.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAICAAAAAAAACAiA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_CharacterInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.TMP_CharacterInfo" Collapsed="true">
+    <Position X="19" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAgJBEAAggxAAAAEABaAAEBGCEAEAACEBgFIAAJBEAI=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_CharacterInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.ColorTween" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgBIwAAAAAQAAAIAIIAAAAAQAAYAAAAAAAEEgAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_CoroutineTween.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="TMPro.FloatTween" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAABIwAAAAAAQAAIEAIAAgAAAAAYAAAAAAAAEgAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_CoroutineTween.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="TMPro.FontAssetCreationSettings" Collapsed="true">
+    <Position X="17.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAAAJAgAAEAACAAAAgYgAAAAAAAAIAAAAAIAAAAmAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontAssetCommon.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.TMP_FontWeightPair" Collapsed="true">
+    <Position X="22.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontAssetCommon.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.KerningPairKey" Collapsed="true">
+    <Position X="10.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontAssetCommon.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.GlyphValueRecord_Legacy" Collapsed="true">
+    <Position X="20.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAMAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontAssetCommon.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.TMP_GlyphValueRecord" Collapsed="true">
+    <Position X="12" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAIMAIAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontFeaturesCommon.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.TMP_GlyphAdjustmentRecord" Collapsed="true">
+    <Position X="10.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAggAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontFeaturesCommon.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.GlyphPairKey" Collapsed="true">
+    <Position X="19" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontFeaturesCommon.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.TMP_LineInfo" Collapsed="true">
+    <Position X="13.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAAgACABAAAAAwEUIAAAgAIAgAEAEAAAgAgAAAAQ=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_LineInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.TMP_MeshInfo" Collapsed="true">
+    <Position X="19" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAAAAAAAgBAIARAAAQAAAAQRAACAAAAAkAJAIAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_MeshInfo.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.TMP_FontStyleStack" Collapsed="true">
+    <Position X="20.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQAAAAAAgAAAAAEgBAIAAAAAAAAAEJBAAABAAAg=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_TextProcessingStack.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.TMP_TextProcessingStack&lt;T&gt;" Collapsed="true">
+    <Position X="12" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAYAAAQAAIEEAgEAAAAABAQAgADAQAAAAAAAAARBCAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_TextProcessingStack.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.CaretInfo" Collapsed="true">
+    <Position X="10.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_TextUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.VertexGradient" Collapsed="true">
+    <Position X="17.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAIAEAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMPro_MeshUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.TMP_PageInfo" Collapsed="true">
+    <Position X="22.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAQAAAAACAAAAEAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMPro_MeshUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.TMP_LinkInfo" Collapsed="true">
+    <Position X="15.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAIAAgAABBAAAAAAQAACAAAAAAAAAAIAACAAAAgAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMPro_MeshUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.TMP_WordInfo" Collapsed="true">
+    <Position X="15.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAEAAAAAAAAEAEAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMPro_MeshUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.TMP_SpriteInfo" Collapsed="true">
+    <Position X="10.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMPro_MeshUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.Extents" Collapsed="true">
+    <Position X="13.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAQAgAEAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMPro_MeshUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.Mesh_Extents" Collapsed="true">
+    <Position X="13.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMPro_MeshUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.WordWrapState" Collapsed="true">
+    <Position X="19" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAEYIQjhoYwAECEGIkaFIiKQCMAoIE1EEJURABkQAQQ=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMPro_MeshUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.TagAttribute" Collapsed="true">
+    <Position X="17.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMPro_MeshUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TMPro.RichTextTagAttribute" Collapsed="true">
+    <Position X="15.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAABAAABAAAAAAAQQAAAAAEA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMPro_MeshUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="TMPro.ITextPreprocessor" Collapsed="true">
+    <Position X="12" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\ITextPreProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TMPro.ITweenValue" Collapsed="true">
+    <Position X="13.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABIAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_CoroutineTween.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="TMPro.ITextElement" Collapsed="true">
+    <Position X="10.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAABAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Text.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="TMPro.TextContainerAnchors" Collapsed="true">
+    <Position X="22.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAoAAAAABAAAAAQAAAAAAAIAAAACACQAAAAAEA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TextContainer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.ColorMode" Collapsed="true">
+    <Position X="13.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAQAAMAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_ColorGradient.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.AtlasPopulationMode" Collapsed="true">
+    <Position X="10.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontAsset.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.FontFeatureLookupFlags" Collapsed="true">
+    <Position X="17.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAEAABA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_FontFeaturesCommon.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.VertexSortingOrder" Collapsed="true">
+    <Position X="20.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_MeshInfo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.MarkupTag" Collapsed="true">
+    <Position X="10.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MMEASERBN7+4/sRKLcODEjpw05XEQTCgHTEgPEEIo1A=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_RichTextTagsCommon.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.TagValueType" Collapsed="true">
+    <Position X="19" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAgAAACAAEAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_RichTextTagsCommon.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.TagUnitType" Collapsed="true">
+    <Position X="17.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAgAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_RichTextTagsCommon.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.TextAlignmentOptions" Collapsed="true">
+    <Position X="20.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwQJoQEIQBABCBBABAAQAAAAAAAIgCAAKkCBgAAYAEQ=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Text.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.HorizontalAlignmentOptions" Collapsed="true">
+    <Position X="22.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAACACAAAAIgAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Text.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.VerticalAlignmentOptions" Collapsed="true">
+    <Position X="22.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAQAAAAAAAIAAAAAAARAAAAgAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Text.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.TextRenderFlags" Collapsed="true">
+    <Position X="13.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Text.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.TMP_TextElementType" Collapsed="true">
+    <Position X="17.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Text.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.MaskingTypes" Collapsed="true">
+    <Position X="13.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Text.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.TextOverflowModes" Collapsed="true">
+    <Position X="12" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAGAAMAAAAABAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Text.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.MaskingOffsetMode" Collapsed="true">
+    <Position X="12" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Text.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.TextureMappingOptions" Collapsed="true">
+    <Position X="15.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAABCAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Text.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.FontStyles" Collapsed="true">
+    <Position X="19" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAASAAAoAAAAAAAAAIAEAAAAAAABCQAAE=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Text.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.FontWeight" Collapsed="true">
+    <Position X="20.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEAAAAAAAAACIAAQBAAgAAEAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_Text.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.TextElementType" Collapsed="true">
+    <Position X="10.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_TextElement.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.CaretPosition" Collapsed="true">
+    <Position X="12" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAEAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_TextUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.Compute_DistanceTransform_EventTypes" Collapsed="true">
+    <Position X="15.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMPro_EventManager.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.TMP_VertexDataUpdateFlags" Collapsed="true">
+    <Position X="19" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEIACAAEAAAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMPro_MeshUtilities.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TMPro.SpriteAssetUtilities.SpriteAssetImportFormats" Collapsed="true">
+    <Position X="15.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEACAA=</HashCode>
+      <FileName>Assets\Package\com.unity.textmeshpro\Scripts\Runtime\TMP_SpriteAssetImportFormats.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

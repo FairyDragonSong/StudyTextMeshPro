@@ -957,6 +957,7 @@ namespace TMPro
 
 
         // This function parses through the Char[] to determine how many characters will be visible. It then makes sure the arrays are large enough for all those characters.
+        // 这个函数通过解析Char[]来确定有多少字符是可见的。 然后确保数组足够大，可以容纳所有这些字符。 
         internal override int SetArraySizes(UnicodeChar[] unicodeChars)
         {
             k_SetArraySizesMarker.Begin();
@@ -1011,7 +1012,7 @@ namespace TMPro
             #endregion
 
 
-            // Handling for Ellipsis special character
+            // Handling for Ellipsis special character 处理省略号特殊字符
             #region Setup Ellipsis Special Character
             if (m_overflowMode == TextOverflowModes.Ellipsis)
             {
@@ -1586,7 +1587,7 @@ namespace TMPro
             if (m_textInfo != null)
                 m_textInfo.Clear();
 
-            // Early exit if we don't have any Text to generate.
+            // Early exit if we don't have any Text to generate. 如果我们没有任何文本要生成，则提前退出。
             if (m_TextProcessingArray == null || m_TextProcessingArray.Length == 0 || m_TextProcessingArray[0].unicode == 0)
             {
                 // Clear mesh and upload changes to the mesh.
@@ -2516,13 +2517,13 @@ namespace TMPro
                     {
                         k_HandleHorizontalLineBreakingMarker.Begin();
 
-                        // Handle Line Breaking (if still possible)
+                        // Handle Line Breaking (if still possible) 处理断行(如果仍然可能)
                         if (m_enableWordWrapping && m_characterCount != m_firstCharacterOfLine)
                         {
-                            // Restore state to previous safe line breaking
+                            // Restore state to previous safe line breaking 将状态恢复到以前的安全断行
                             i = RestoreWordWrappingState(ref m_SavedWordWrapState);
 
-                            // Compute potential new line offset in the event a line break is needed.
+                            // Compute potential new line offset in the event a line break is needed. 计算在需要换行时可能出现的新行偏移量。 
                             float lineOffsetDelta = 0;
                             if (m_lineHeight == TMP_Math.FLOAT_UNSET)
                             {
@@ -2538,7 +2539,7 @@ namespace TMPro
                             // Calculate new text height
                             float newTextHeight = m_maxTextAscender + lineOffsetDelta + m_lineOffset - m_textInfo.characterInfo[m_characterCount].adjustedDescender;
 
-                            // Replace Soft Hyphen by Hyphen Minus 0x2D
+                            // Replace Soft Hyphen by Hyphen Minus 0x2D 连字符
                             #region Handle Soft Hyphenation
                             if (m_textInfo.characterInfo[m_characterCount - 1].character == 0xAD && isSoftHyphenIgnored == false)
                             {
@@ -2568,7 +2569,7 @@ namespace TMPro
                             }
                             #endregion
 
-                            // Adjust character spacing before breaking up word if auto size is enabled
+                            // Adjust character spacing before breaking up word if auto size is enabled 如果启用了自动大小，则在分隔单词之前调整字符间距 
                             if (m_enableAutoSizing && isFirstWordOfLine)
                             {
                                 // Handle Character Width Adjustments
@@ -2639,7 +2640,7 @@ namespace TMPro
                                 }
                             }
 
-                            // Determine if new line of text would exceed the vertical bounds of text container
+                            // Determine if new line of text would exceed the vertical bounds of text container 确定新文本行是否会超出文本容器的垂直边界 
                             if (newTextHeight > marginHeight + 0.0001f)
                             {
                                 k_HandleVerticalLineBreakingMarker.Begin();

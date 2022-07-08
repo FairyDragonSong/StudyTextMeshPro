@@ -57,7 +57,7 @@ namespace TMPro.Examples
 
         void OnEnable()
         {
-            // Subscribe to event fired when text object has been regenerated.
+            // Subscribe to event fired when text object has been regenerated. 订阅在重新生成文本对象时触发的事件。
             TMPro_EventManager.TEXT_CHANGED_EVENT.Add(ON_TEXT_CHANGED);
         }
 

@@ -4047,7 +4047,7 @@ namespace TMPro
             // Counter to prevent recursive lockup when computing preferred values.
             m_AutoSizeIterationCount += 1;
 
-            // Parse through Character buffer to read HTML tags and begin creating mesh.
+            // Parse through Character buffer to read HTML tags and begin creating mesh. 解析字符缓冲区以读取HTML标签并开始创建网格。
             for (int i = 0; i < m_TextProcessingArray.Length && m_TextProcessingArray[i].unicode != 0; i++)
             {
                 int charCode = m_TextProcessingArray[i].unicode;
@@ -4647,7 +4647,7 @@ namespace TMPro
 
                     renderedHeight = m_maxTextAscender - m_ElementDescender;
 
-                    // Add new line if not last lines or character.
+                    // Add new line if not last lines or character. 0x2028 0x2029 行分割符号段分隔符
                     if (charCode == 10 || charCode == 11 || charCode == 0x2D || charCode == 0x2028 || charCode == 0x2029)
                     {
                         // Store the state of the line before starting on the new line.
@@ -6826,7 +6826,7 @@ namespace TMPro
 
 
         /// <summary>
-        /// Function to identify and validate the rich tag. Returns the position of the > if the tag was valid.
+        /// Function to identify and validate the rich tag. Returns the position of the > if the tag was valid. 函数来识别和验证富标记。 如果标记有效，返回>的位置。
         /// </summary>
         /// <param name="chars"></param>
         /// <param name="startIndex"></param>

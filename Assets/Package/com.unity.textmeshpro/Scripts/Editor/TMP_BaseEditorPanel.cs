@@ -1253,7 +1253,7 @@ namespace TMPro.EditorUtilities
             m_TextStyleIndexLookup.Clear();
             m_Styles.Clear();
 
-            // First style on the list is always the Normal default style.
+            // First style on the list is always the Normal default style. 列表中的第一个样式始终是Normal默认样式。 
             TMP_Style styleNormal = TMP_Style.NormalStyle;
 
             m_Styles.Add(styleNormal);
