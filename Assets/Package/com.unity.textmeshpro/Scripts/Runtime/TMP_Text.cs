@@ -783,7 +783,7 @@ namespace TMPro
 
 
         /// <summary>
-        /// The linked text component used for flowing the text from one text component to another.
+        /// The linked text component used for flowing the text from one text component to another. 链接的文本组件，用于将文本从一个文本组件传递到另一个文本组件。 
         /// </summary>
         public TMP_Text linkedTextComponent
         {

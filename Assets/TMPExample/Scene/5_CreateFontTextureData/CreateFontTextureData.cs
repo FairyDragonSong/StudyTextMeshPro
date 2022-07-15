@@ -9,7 +9,7 @@ public class CreateFontTextureData : MonoBehaviour
 {
     public string sCharactor = "ÎÒ°®ÄãÖÐ¹ú";
     public Font fontFile;
-    public RawImage rawImage;
+    public SpriteRenderer sprite;
     public int atlasWidth = 512;
     public int atlasHeight = 512;
     public int padding = 5;
@@ -17,6 +17,10 @@ public class CreateFontTextureData : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rawImage.texture = CustomTextUtil.CreateFontAtlasTexture(fontFile, atlasWidth, atlasHeight, padding, sCharactor);
+        Texture2D texture2D = CustomTextUtil.CreateFontAtlasTexture(fontFile, atlasWidth, atlasHeight, padding, sCharactor);
+
+        // sprite.material.SetTexture("_MainTex", texture2D);
+        sprite.sprite = Sprite.Create(texture2D, new Rect(0, 0, atlasWidth, atlasHeight), new Vector2(0.5f, 0.5f));
+        
     }
 }

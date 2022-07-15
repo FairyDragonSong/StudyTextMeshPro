@@ -1,5 +1,6 @@
 
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.TextCore;
 using UnityEngine.TextCore.LowLevel;
@@ -33,6 +34,8 @@ public class CustomTextUtil
             fontAtlasTexture.filterMode = FilterMode.Point;
         fontAtlasTexture.SetPixels32(colors, 0);
         fontAtlasTexture.Apply(false, false);
+
+        // File.WriteAllBytes(Application.dataPath + "/../SavedScreen.png", fontAtlasTexture.EncodeToPNG());
 
         return fontAtlasTexture;
     }

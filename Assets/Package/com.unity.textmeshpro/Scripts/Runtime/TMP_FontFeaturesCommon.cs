@@ -102,7 +102,7 @@ namespace TMPro
     }
 
     /// <summary>
-    /// The positional adjustment values of a glyph.
+    /// The positional adjustment values of a glyph. 字形的位置调整值。
     /// </summary>
     [Serializable]
     public struct TMP_GlyphAdjustmentRecord

@@ -37,13 +37,19 @@ public class ShowOneCharactor : MonoBehaviour
         MeshFilter meshFilter = this.GetComponent<MeshFilter>();
         Mesh mesh = new Mesh();
         // mesh.uv
-        
+
+        //用于定义字形的大小、位置和间距的指标。
+        float glayphWidth = tarGlyph.metrics.width / 2;
+        float glayphHeight = tarGlyph.metrics.height / 2;
+
+        float scale = 0.01f;
+
         mesh.vertices = new Vector3[]
         {
-            new Vector3(-1, -1),
-            new Vector3(1, -1),
-            new Vector3(-1, 1),
-            new Vector3(1, 1),
+            new Vector3(-1 * glayphWidth, -1 * glayphHeight) * scale,
+            new Vector3(1  * glayphWidth, -1 * glayphHeight) * scale,
+            new Vector3(-1 * glayphWidth, 1  * glayphHeight) * scale,
+            new Vector3(1  * glayphWidth, 1  * glayphHeight) * scale,
         };
 
         mesh.triangles = new int[]
