@@ -6,8 +6,8 @@ Shader "Unlit/ShowOneCharactor_SDF"
         _ColorMask("Color Mask", Float) = 15
         _Delta("Delta", Range(0, 0.2)) = 0
 
-        // 放缩时保证边界
-        _Scale("Scale", Float) = 1
+        _Bold("Bold", Range(0, 1)) = 0.5
+
     }
         SubShader
         {
@@ -47,6 +47,7 @@ Shader "Unlit/ShowOneCharactor_SDF"
                 float4 _MainTex_ST;
                 float _Delta;
                 float _Scale = 1;
+                float _Bold;
 
                 v2f vert(appdata v)
                 {
@@ -55,7 +56,7 @@ Shader "Unlit/ShowOneCharactor_SDF"
                     float w = o.vertex.w;
                     float scale = 100 / (w);
                     scale *= _Scale;
-			        float halfscale = 0.5 * scale;
+			        float halfscale = _Bold * scale;
                     o.param = half2(scale, halfscale);
 
                     o.uv = TRANSFORM_TEX(v.uv, _MainTex);

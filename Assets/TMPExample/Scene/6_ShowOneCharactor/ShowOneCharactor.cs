@@ -13,6 +13,10 @@ public class ShowOneCharactor : MonoBehaviour
 
     public string targetString = "°®";
 
+    public bool bItalic = false;
+
+    private Vector3[] globalpos;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +55,10 @@ public class ShowOneCharactor : MonoBehaviour
             new Vector3(-1 * glayphWidth, 1  * glayphHeight) * scale,
             new Vector3(1  * glayphWidth, 1  * glayphHeight) * scale,
         };
+
+        #region bItalic
+        globalpos = mesh.vertices;
+        #endregion
 
         // Ë«ÃæäÖÈ¾
         mesh.triangles = new int[]
@@ -92,6 +100,30 @@ public class ShowOneCharactor : MonoBehaviour
     void Update()
     {
         MeshRenderer meshRenderer = this.GetComponent<MeshRenderer>();
+        MeshFilter meshFilter = this.GetComponent<MeshFilter>();
         meshRenderer.material.SetFloat("_Scale", (transform.localScale.y + transform.localScale.x + transform.localScale.z) / 3);
+
+        #region bItalic
+
+        
+        if (bItalic)
+        {
+            Vector3 offset = new Vector3(0.2f, 0);
+            var v = new Vector3[]
+            {
+                globalpos[0] - offset,
+                globalpos[1] - offset,
+                globalpos[2] + offset,
+                globalpos[3] + offset,
+            };
+            meshFilter.mesh.vertices = v;
+        }
+        else
+        {
+            meshFilter.mesh.vertices = globalpos;
+        }
+
+
+        #endregion
     }
 }
