@@ -290,7 +290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &220725557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -409,7 +409,6 @@ MonoBehaviour:
   atlasHeight: 512
   padding: 5
   targetString: "\u56FD"
-  sprite: {fileID: 0}
 --- !u!4 &499892359
 Transform:
   m_ObjectHideFlags: 0
@@ -484,6 +483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text (TMP)
       objectReference: {fileID: 0}
+    - target: {fileID: 1007442807478190277, guid: 433ed9d5d36b67e40aa8f21c5a6912b1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9033799195024705414, guid: 433ed9d5d36b67e40aa8f21c5a6912b1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -494,7 +497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9033799195024705414, guid: 433ed9d5d36b67e40aa8f21c5a6912b1, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9033799195024705414, guid: 433ed9d5d36b67e40aa8f21c5a6912b1, type: 3}
       propertyPath: m_AnchorMax.x

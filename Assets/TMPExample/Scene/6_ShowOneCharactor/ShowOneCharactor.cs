@@ -52,6 +52,7 @@ public class ShowOneCharactor : MonoBehaviour
             new Vector3(1  * glayphWidth, 1  * glayphHeight) * scale,
         };
 
+        // 双面渲染
         mesh.triangles = new int[]
         {
             0, 1, 2,
@@ -79,11 +80,18 @@ public class ShowOneCharactor : MonoBehaviour
 
         // 注意 自定义的shader需要打上 Blend SrcAlpha OneMinusSrcAlpha 混合标签，否者场景中会看不到.
         Shader shader = Shader.Find("Unlit/ShowOneCharactor_SDF");
+        // Shader shader = Shader.Find("Unlit/ShowOneCharactor");
         // 可以切换TMP内置的shader
         // Shader shader = Shader.Find("TextMeshPro/Mobile/Bitmap");
         Material material = new Material(shader);
         
         material.SetTexture("_MainTex", tex);
         meshRenderer.material = material;
+    }
+
+    void Update()
+    {
+        MeshRenderer meshRenderer = this.GetComponent<MeshRenderer>();
+        meshRenderer.material.SetFloat("_Scale", (transform.localScale.y + transform.localScale.x + transform.localScale.z) / 3);
     }
 }
