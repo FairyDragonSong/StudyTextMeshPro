@@ -493,6 +493,10 @@ PrefabInstance:
       value: "\u56FD"
       objectReference: {fileID: 0}
     - target: {fileID: 3563683891633281601, guid: 433ed9d5d36b67e40aa8f21c5a6912b1, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3563683891633281601, guid: 433ed9d5d36b67e40aa8f21c5a6912b1, type: 3}
       propertyPath: m_fontStyle
       value: 0
       objectReference: {fileID: 0}

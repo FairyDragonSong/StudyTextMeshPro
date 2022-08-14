@@ -200,7 +200,35 @@ SubShader {
 			half d = tex2D(_MainTex, input.texcoord0.xy).a * input.param.x;
 			half4 c = input.faceColor * saturate(d - input.param.w);
 
+#ifdef OUTLINE_ON
+			c = lerp(input.outlineColor, input.faceColor, saturate(d - input.param.z));
+			c *= saturate(d - input.param.y);
+#endif
 
+#if UNDERLAY_ON
+			d = tex2D(_MainTex, input.texcoord1.xy).a * input.underlayParam.x;
+			c += float4(_UnderlayColor.rgb * _UnderlayColor.a, _UnderlayColor.a) * saturate(d - input.underlayParam.y) * (1 - c.a);
+#endif
+
+#if UNDERLAY_INNER
+			half sd = saturate(d - input.param.z);
+			d = tex2D(_MainTex, input.texcoord1.xy).a * input.underlayParam.x;
+			c += float4(_UnderlayColor.rgb * _UnderlayColor.a, _UnderlayColor.a) * (1 - saturate(d - input.underlayParam.y)) * sd * (1 - c.a);
+#endif
+
+			// Alternative implementation to UnityGet2DClipping with support for softness.
+#if UNITY_UI_CLIP_RECT
+			half2 m = saturate((_ClipRect.zw - _ClipRect.xy - abs(input.mask.xy)) * input.mask.zw);
+			c *= m.x * m.y;
+#endif
+
+#if (UNDERLAY_ON | UNDERLAY_INNER)
+			c *= input.texcoord1.z;
+#endif
+
+#if UNITY_UI_ALPHACLIP
+			clip(c.a - 0.001);
+#endif
 
 			return c;
 		}

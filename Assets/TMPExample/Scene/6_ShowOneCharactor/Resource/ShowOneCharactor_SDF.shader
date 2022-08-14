@@ -7,6 +7,9 @@ Shader "Unlit/ShowOneCharactor_SDF"
         _Delta("Delta", Range(0, 0.2)) = 0
 
         _Bold("Bold", Range(0, 1)) = 0.5
+        _UnderlayOffsetX("UnderlayOffsetX", Range(-0.02, 0.02)) = 0
+        _UnderlayOffsetY("UnderlayOffsetY", Range(-0.02, 0.02)) = 0
+        _UnderlayColor("UnderlayColor", Color) = (1, 1, 1, 1)
 
     }
         SubShader
@@ -41,6 +44,7 @@ Shader "Unlit/ShowOneCharactor_SDF"
                     float4 vertex : SV_POSITION;
                     fixed4 color : COLOR;
                     half2 param: TEXCOORD1;
+                    half2 underlayParam: TEXCOORD2;
                 };
 
                 sampler2D _MainTex;
@@ -48,6 +52,9 @@ Shader "Unlit/ShowOneCharactor_SDF"
                 float _Delta;
                 float _Scale = 1;
                 float _Bold;
+                float _UnderlayOffsetX;
+                float _UnderlayOffsetY;
+                float4 _UnderlayColor;
 
                 v2f vert(appdata v)
                 {
@@ -58,6 +65,11 @@ Shader "Unlit/ShowOneCharactor_SDF"
                     scale *= _Scale;
 			        float halfscale = _Bold * scale;
                     o.param = half2(scale, halfscale);
+
+                    float x = _UnderlayOffsetX;
+                    float y = _UnderlayOffsetY;
+                    float2 layerOffset = float2(x, y);
+                    o.underlayParam = float2(v.uv + layerOffset);
 
                     o.uv = TRANSFORM_TEX(v.uv, _MainTex);
                     o.color = v.color;
@@ -79,10 +91,20 @@ Shader "Unlit/ShowOneCharactor_SDF"
                     // 第一 end
 
                     // 第二
-                    half alpha = col.a;
-			        half aa = saturate(alpha * i.param.x - i.param.y);
-                    return float4(col.rgb, aa);
+			        half colorAlpha = saturate(col.a * i.param.x - i.param.y);
                     // 第二 end
+
+                    float d = tex2D(_MainTex, i.underlayParam.xy).a * i.param.x;
+                    float underLayAlpha = saturate(d - i.param.y) * (1 - colorAlpha);
+                    
+                    if (underLayAlpha > 0)
+                        col.rgb = _UnderlayColor.rgb;
+
+                    colorAlpha += underLayAlpha;
+
+                    return float4(col.rgb, colorAlpha);
+                    
+
                 }
             ENDCG
         }
