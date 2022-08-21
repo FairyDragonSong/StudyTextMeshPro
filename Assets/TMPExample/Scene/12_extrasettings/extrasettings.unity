@@ -422,7 +422,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: FB FA
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e31ec378bcc2cb428a0306ae0a1137a, type: 2}
   m_sharedMaterial: {fileID: -4867980909546468666, guid: 2e31ec378bcc2cb428a0306ae0a1137a, type: 2}
